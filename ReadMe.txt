@@ -14,7 +14,5 @@ Dikkat Edilmesi Gerekenler
 •	Açıklama satırları
 •	Data Annotation
 •	Katmanlı mimari yapısı
-•	Data Access için ADO.net (tercihen)
 •	Kullanılan tasarım kalıpları
 •	Ürün listeleme sayfasında cache kullanılması
-
