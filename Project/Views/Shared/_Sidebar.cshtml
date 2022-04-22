@@ -1,0 +1,28 @@
+﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a asp-controller="Home" asp-action="Index" class="brand-link">
+        <img src="~/dist/img/kullanıcıicon.png" alt="E-TİCARET" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light"><small>E-TİCARET</small></span>
+    </a>
+    <div class="sidebar">
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-item">
+                    <a asp-controller="Product" asp-action="Index" class="nav-link">
+                        <i class="nav-icon fas fa-gift"></i>
+                        <p>
+                            Product
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Subcategory" asp-action="Index" class="nav-link">
+                        <i class="nav-icon fas fa-bars"></i>
+                        <p>
+                            Subcategory
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
